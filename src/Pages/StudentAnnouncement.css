@@ -1,0 +1,62 @@
+AnnouncementPage.css /
+#student-announce{
+body{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.announcement-page {
+  background-image: url(data:image/jpeg;base64,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);
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+  font-size: large;
+  max-width: 600px;
+  margin: auto;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: rgb(26, 11, 11);
+  font-size: 12px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+}

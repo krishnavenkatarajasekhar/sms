@@ -1,0 +1,75 @@
+#report-form-new{
+    margin-left: 30%;
+    margin-top: 20px;
+    padding-right: 50px;
+.selectname{
+    margin-left: -250px;
+  }
+  .tr-tab:hover    {
+    background-color:rgb(189, 166, 158);
+  } 
+  .tan-tab{
+    background-color: #007bff;
+  }
+  
+  
+  .container {
+    width: 70%;
+     margin-left: 300px;
+    padding: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .labelname {
+    margin-right: 10px;
+  }
+  
+  .selectname {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .button2 {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .report-card {
+    margin-top: 20px;
+  }
+  
+  .tab-con {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tr-tab {
+    background-color: #f2f2f2;
+  }
+  
+  .tab-dat {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .button1 {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+}

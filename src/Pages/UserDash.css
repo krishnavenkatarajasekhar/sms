@@ -1,0 +1,118 @@
+#user-content {
+       position: relative;
+	   transition: .3s ease;
+	   margin-left: 200px;
+    margin-right: 10%;
+
+	 
+.announcements-container {
+	width: 40%;
+	margin: 20px auto;
+	margin-left: 40%;
+  }
+
+  .time-date{
+	margin-left: 90%;
+  }
+
+ img{
+	width: 100px;
+	margin-left: 12%;
+    margin-top: 10px;
+ } 
+.head-user{
+	margin-left: 50%;
+	margin-top: -100px;
+	color: blue;
+}
+
+  .text-user{
+	margin-left: 90%;
+	margin-top: -50px;
+  }
+  .announcements-slider {
+	margin-top: 10px;
+  }
+
+.id-teacher-dash {
+	margin-top: -100px;
+    margin-left: 25%;
+    
+}
+  
+  .announcement-item {
+	border: 1px solid #ddd;
+	padding: 10px;
+	background-color: #f9f9f9;
+	border-radius: 8px;
+  }
+  
+  .announcement-content {
+	text-align: center;
+  }
+  
+  .announcement-content h3 {
+	color: #333;
+  }
+  
+  .announcement-content p {
+	color: #666;
+	margin-top: 10px;
+  }
+  
+  .announcement-content h2 {
+	color: #3498db; /* Update color to your preferred color */
+	font-size: 18px; /* Update font size to your preferred size */
+	font-weight: bold; /* Update font weight to your preferred weight */
+  }
+  .box-info {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	grid-gap: 24px;
+	margin-top: 125px;
+	
+	
+}
+.box-info li {
+	padding: 24px;
+	background: var(--light);
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	grid-gap: 24px;
+	width: 300px;
+	margin-left: 30%;
+	
+}
+.box-info li .bx {
+	width: 80px;
+	height: 80px;
+	border-radius: 10px;
+	font-size: 36px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.box-info li:nth-child(1) .bx {
+	background: var(--light-blue);
+	color: var(--blue);
+}
+.box-info li:nth-child(2) .bx {
+	background: var(--light-yellow);
+	color: var(--yellow);
+}
+.box-info li:nth-child(3) .bx {
+	background: var(--light-orange);
+	color: var(--orange);
+}
+.box-info li .text h3 {
+	font-size: 24px;
+	font-weight: 600;
+	color: var(--dark);
+}
+.box-info li .text p {
+	color: var(--dark);	
+}
+
+}

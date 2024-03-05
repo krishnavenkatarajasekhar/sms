@@ -1,0 +1,63 @@
+
+.pay-fee-container {
+  max-width: 500px;
+margin-left: 30%;
+  margin-top: 10px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pay-fee-heading {
+  color: #007bff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.pay-fee-form {
+  margin-top: 10px;
+}
+
+.form-group1 {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group1 label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form-group1 input[type="text"],
+.form-group1 input[type="number"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group1 input[type="text"]:read-only,
+.form-group1 input[type="number"]:read-only {
+  background-color: #f9f9f9;
+}
+
+.pay-fee-button {
+  background-color: #eA580c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pay-fee-button:hover {
+  background-color: #0056b3;
+}

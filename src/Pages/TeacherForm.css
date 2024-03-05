@@ -1,0 +1,63 @@
+#teacherForm {
+  padding-left: 320px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+
+
+.fram{
+  padding:10px;
+}
+.teacher-form-container{
+    max-width: 700px;
+    margin: auto;
+    padding: 100px;   
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/free-photo/school-classroom-blur-background-without-young-student-blurry-view-elementary-class-room-no-kid-teacher-with-chairs-tables-campus-vintage-effect-style-pictures_1253-1130.jpg?w=900&t=st=1704698898~exp=1704699498~hmac=3240b82265e4b1b55bd10814ea83046300a2da977d4f44c36bd6ab7b618accbe'); 
+    background-size: cover;
+    background-position: center;
+    font-family: "Roboto";
+  }
+  
+  .form-heading{
+    color: blue;
+  }
+  .form-column {
+    width: 48%; 
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2%; 
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+}

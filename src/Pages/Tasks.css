@@ -1,0 +1,167 @@
+
+.tasksub{
+    color: #0056b3;
+}
+.view-cont1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    height: 50vh;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  
+  .content1 {
+    width: 80%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+
+.card {
+    width: 60%; 
+    margin: 20px auto; 
+    border: 1px solid #ccc;
+   
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 450px;
+  }
+  
+ 
+  .card-body {
+    padding: 20px;
+  }
+  
+  
+  
+  
+ 
+  .view {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+ 
+  .tab1 {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 320px;
+  }
+  
+
+  .tab1 th {
+    background-color: #ea580c;
+    color: #ffffff;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+  .tab1 tr {
+    border: 1px solid #ea580c;
+  }
+  
+  
+  .tab1 td {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .nn {
+    padding: 12px 24px;
+    background-color: #3182ce;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10px; 
+  }
+  
+  .nn:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%; 
+    margin: 5px auto;
+}
+
+  
+ 
+  .form-group {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+ 
+  .request-card .form-group input[type="text"],
+.request-card .form-group textarea,
+.request-card .form-group select {
+  width: 150%; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+  .form-group input[type="date"],
+  .form-group input[type="text"],
+  .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+ 
+  .form-group input[type="date"]:focus,
+  .form-group input[type="text"]:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #3182ce;
+  }
+  
+ 
+  .form-group textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+ 
+  .form-group button[type="submit"] {
+    padding: 12px 24px;
+    background-color: #3182ce;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .form-group button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

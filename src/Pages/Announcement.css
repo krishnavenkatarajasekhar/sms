@@ -1,0 +1,101 @@
+#announcement {
+
+  padding-left: 300px;
+  padding-top: 50px;
+  form {
+      max-width: 500px;
+      margin: 0 auto;
+      height: 100vh;
+    }
+    .Announcement-heading{
+      color: blue;
+      display: flex;
+      justify-content: center;
+    }
+    .announcement-form{
+      background-color: lightblue;
+      height: 450px;
+      padding: 20px;
+      border-radius: 20px;
+    }
+  
+    .row {
+      margin-bottom: 20px;
+    }
+    
+    
+    .col-form-label {
+      font-weight: bold;
+    }
+   
+    .form-control {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .form-select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+  
+    .btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    
+    .btn-primary {
+      background-color: #0e71d4;
+      color: #fff;
+     
+      border-radius: 4px;
+    }
+    
+    
+    .btn-primary:hover {
+      background-color: #0cb300;
+      border: 1px solid #0cb300;
+    }
+   
+    .mt-4 {
+      margin-top: 1.5rem;
+    }
+    
+    
+    .date-time {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: bold;
+      color: blue;
+      padding: 20px;
+      
+    }
+    
+    .error-message {
+      color: red;
+    }
+    
+  
+  
+  
+  
+    body {
+      margin: 0;
+      padding: 0;
+      
+      
+      background-size: cover;
+      background-position: center;
+      font-family: 'Arial', sans-serif; 
+    }
+  
+   
+  
+    }

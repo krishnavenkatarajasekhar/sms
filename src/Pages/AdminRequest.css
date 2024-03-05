@@ -1,0 +1,78 @@
+
+.box-flow {
+    display: grid;
+    
+    grid-gap: 24px;
+}
+
+.box-flow li {
+    padding: 24px;
+    background: var(--light);
+    border-radius: 20px;
+    display: flex;
+    margin-left: 20%;
+    width: 400px;
+    align-items: center;
+    grid-gap: 24px;
+}
+
+.box-flow li .bx {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-flow li:nth-child(1) .bx {
+    background: var(--light-blue);
+    color: var(--blue);
+}
+
+.box-flow li:nth-child(2) .bx {
+    background: var(--light-yellow);
+    color: var(--yellow);
+}
+
+/* .container #content main .box-info li:nth-child(3) .bx {
+    background: var(--light-orange);
+    color: var(--orange);
+} */
+
+.box-flow li .text h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--dark);
+}
+
+.box-flow li .text p {
+    color: var(--dark);  
+}
+.teachers-request-img{
+    height: 70px;
+    width: 70px;
+}
+.link-name{
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: royalblue;
+}
+
+.admin-requests-container{
+   background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10%;
+    width:50%;
+    margin-left: 20%;
+    border-radius: 10px;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    
+    
+}

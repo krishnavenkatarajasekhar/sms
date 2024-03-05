@@ -1,0 +1,32 @@
+/* TeacherList.css */
+
+.teacher-list {
+    margin-top: 20px;
+    margin-left: 300px;
+  }
+  
+  .teacher-list h2 {
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  th, td {
+    font-size: 14px;
+  }
+  

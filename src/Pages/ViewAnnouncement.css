@@ -1,0 +1,29 @@
+
+    .view-announce-container {
+      margin-top: 30px;
+      margin-left: 400px;
+      max-width: 700px; 
+      padding: 20px; 
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .view-announce-table {
+     padding-left: 70px;
+      border-collapse: collapse; 
+    }
+    
+    .view-announce-table th,
+    .view-announce-table td {
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+    
+    .view-announce-table th {
+      background-color: #eA580c;
+      color: #333;
+    }
+    

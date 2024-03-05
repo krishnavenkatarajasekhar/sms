@@ -1,0 +1,34 @@
+#view-attend-form {
+  margin-left: 30%;
+}
+
+.attendance-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.attendance-table th {
+  background-color: #ea580c;
+  color: #fff;
+  padding: 10px;
+}
+
+.attendance-form {
+  margin-top: 20px;
+}
+
+.attendance-item {
+  margin-bottom: 20px;
+}
+
+.attendance-item label {
+  font-weight: bold;
+}
+
+.attendance-item span {
+  display: block;
+  padding: 5px 0;
+}

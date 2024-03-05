@@ -1,0 +1,45 @@
+#user-content {
+ 
+    position: relative;
+
+
+    transition: .3s ease;
+ 
+.announcements-container {
+width: 40%;
+margin: 20px auto;
+}
+.id-teacher-dash {
+    margin-top: 10px;
+    
+}
+.announcements-slider {
+margin-top: 10px;
+}
+
+.announcement-item {
+border: 1px solid #ddd;
+padding: 10px;
+background-color: #f9f9f9;
+border-radius: 8px;
+}
+
+.announcement-content {
+text-align: center;
+}
+
+.announcement-content h3 {
+color: #333;
+}
+
+.announcement-content p {
+color: #666;
+margin-top: 10px;
+}
+
+.announcement-content h2 {
+color: #3498db; /* Update color to your preferred color */
+font-size: 18px; /* Update font size to your preferred size */
+font-weight: bold; /* Update font weight to your preferred weight */
+}
+}
